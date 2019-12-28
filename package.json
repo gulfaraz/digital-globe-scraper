@@ -1,0 +1,14 @@
+{
+  "name": "digital-globe-scraper",
+  "version": "1.0.0",
+  "description": "Script to scrape disaster data from Digital Globe's Open Data Program",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gulfaraz Rahman",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
