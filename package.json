@@ -26,17 +26,9 @@
         }
     },
     "lint-staged": {
-        "linters": {
-            "./*.{js,css,html,json}": [
-                "prettier --write --ignore-path ./.prettierignore",
-                "git add"
-            ]
-        },
-        "ignore": [
-            "node_modules",
-            "CHANGES.md",
-            "package-lock.json",
-            "README.md"
+        "*.{js,css,html,json}": [
+            "prettier --write --ignore-path ./.prettierignore",
+            "git add"
         ]
     }
 }
